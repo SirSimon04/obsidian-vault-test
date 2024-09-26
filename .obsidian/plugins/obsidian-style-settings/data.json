@@ -1,0 +1,8 @@
+{
+  "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-frappe",
+  "catppuccin-heading-settings@@ctp-h1": "var(--ctp-red)",
+  "catppuccin-heading-settings@@ctp-h2": "var(--ctp-peach)",
+  "catppuccin-heading-settings@@ctp-h3": "var(--ctp-sky)",
+  "catppuccin-heading-settings@@ctp-h4": "var(--ctp-green)",
+  "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-full-palette"
+}

@@ -1,0 +1,10 @@
+{
+  "accentColor": "",
+  "textFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono",
+  "cssTheme": "Obsidian Nord",
+  "baseFontSize": 17,
+  "enabledCssSnippets": [
+    "media-grid-snippet"
+  ]
+}
