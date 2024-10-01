@@ -168,7 +168,7 @@
       "events": {
         "every-n-seconds": {
           "enabled": true,
-          "seconds": 30
+          "seconds": 1800
         }
       },
       "debounce": null,
