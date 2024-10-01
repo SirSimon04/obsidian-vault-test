@@ -26,7 +26,7 @@
     {
       "id": "37mrz0rk1b",
       "platform_specific_commands": {
-        "default": "cd Learning && git pull && cd ../obsidian-test && git pull"
+        "default": "git pull && cd Learning && git pull && cd ../obsidian-test && git pull"
       },
       "shells": {},
       "alias": "pull work",
