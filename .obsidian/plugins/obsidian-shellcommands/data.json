@@ -29,7 +29,7 @@
         "default": "cd Learning && git pull && cd ../obsidian-test && git pull"
       },
       "shells": {},
-      "alias": "Pull Work",
+      "alias": "pull work",
       "icon": "terminal",
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -66,10 +66,10 @@
     {
       "id": "q8oejyrhm2",
       "platform_specific_commands": {
-        "default": "git add . && git commit -am \"Automatic vault update on {{date}}\""
+        "default": "git add . && git commit -m \"Automatic vault update\""
       },
       "shells": {},
-      "alias": "git commit",
+      "alias": "commit",
       "icon": null,
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -105,7 +105,7 @@
         "default": "git push"
       },
       "shells": {},
-      "alias": "",
+      "alias": "push",
       "icon": null,
       "confirm_execution": false,
       "ignore_error_codes": [],

@@ -1,6 +1,0 @@
-[submodule "Learning"]
-	path = Learning
-	url = https://github.com/SirSimon04/Learning.git
-[submodule "work"]
-	path = work
-	url = https://github.tools.sap/I569192/obsidian-test
