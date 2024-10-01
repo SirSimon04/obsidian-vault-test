@@ -68,7 +68,7 @@ As there is no hook for pulling, we need a shellcommand for that. It is also use
 
 Create a pull script for every device:
 ```shell
-cd folder1 && git pull && cd ../folder2 && git pull
+git pull && cd folder1 && git pull && cd ../folder2 && git pull
 ```
 
 Create one push script:
