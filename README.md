@@ -1,9 +1,11 @@
+# Obsidian - One vault with multiple repos on different instances
+
 1. Use this as the main folder
 2. Create folders as repos on every Github instance you want
 3. Add the folder of each device to the gitignore, optionally every file in this folder.
 4. Create the pre-commit and pre-push hooks in .git/hooks/
 
-pre-commit
+Create the file `pre-commit`. You need to update the function calls.
 ```shell
 #!/bin/sh
 
@@ -37,7 +39,7 @@ exit 0
 
 ```
 
-pre-push
+Create the file `pre-push`. You need to update the function calls.
 ```shell
 #!/bin/sh
 
@@ -60,7 +62,8 @@ push_subrepo "folder2"
 exit 0
 
 ```
-
+5. Create shellcommands for obsidian integration
+https://github.com/Taitava/obsidian-shellcommands
 As there is no hook for pulling, we need a shellcommand for that. It is also used for comitting and pushing as with the normal obsidian sync there seems to be problem.
 
 Create a pull script for every device:
@@ -68,7 +71,10 @@ Create a pull script for every device:
 cd folder1 && git pull && cd ../folder2 && git pull
 ```
 
-Create one push script with git push
+Create one push script:
+```
+git push
+```
 
 Create one commit script:
 ```shell
