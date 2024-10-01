@@ -1,6 +1,5 @@
 [
   "table-editor-obsidian",
-  "obsidian-git",
   "obsidian-vimrc-support",
   "webpage-html-export",
   "cycle-through-panes",
@@ -15,5 +14,6 @@
   "obsidian-contextual-typography",
   "heatmap-calendar",
   "obsidian-style-settings",
-  "obsidian-kanban"
+  "obsidian-kanban",
+  "obsidian-shellcommands"
 ]
